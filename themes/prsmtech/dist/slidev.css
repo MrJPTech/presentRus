@@ -1,0 +1,124 @@
+/**
+ * PRSMTECH Slidev Theme
+ *
+ * @generated 2025-12-30T01:21:55.089Z
+ */
+
+@import './base.css';
+
+/* Slidev-specific overrides */
+.slidev-layout {
+  --slidev-theme-primary: var(--prsm-colors-primary-500);
+  --slidev-theme-secondary: var(--prsm-colors-secondary-500);
+  --slidev-theme-accent: var(--prsm-colors-primary-600);
+
+  --slidev-slide-width: 980px;
+  --slidev-slide-height: 552px;
+
+  font-family: var(--prsm-typography-fontFamily-sans);
+  background: var(--prsm-slide-background);
+  color: var(--prsm-slide-text);
+  padding: 40px;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: var(--prsm-typography-fontFamily-heading);
+  color: var(--prsm-slide-heading);
+  font-weight: var(--prsm-typography-fontWeight-bold);
+}
+
+.slidev-layout h1 {
+  font-size: var(--prsm-typography-fontSize-5xl);
+  line-height: var(--prsm-typography-lineHeight-tight);
+  margin-bottom: var(--prsm-spacing-lg);
+}
+
+.slidev-layout h2 {
+  font-size: var(--prsm-typography-fontSize-3xl);
+  margin-bottom: var(--prsm-spacing-md);
+}
+
+.slidev-layout h3 {
+  font-size: var(--prsm-typography-fontSize-2xl);
+  margin-bottom: var(--prsm-spacing-sm);
+}
+
+.slidev-layout p {
+  font-size: var(--prsm-typography-fontSize-lg);
+  line-height: var(--prsm-typography-lineHeight-relaxed);
+  color: var(--prsm-slide-text);
+}
+
+.slidev-layout a {
+  color: var(--prsm-slide-link);
+  text-decoration: none;
+  transition: color var(--prsm-transitions-duration-fast);
+}
+
+.slidev-layout a:hover {
+  color: var(--prsm-slide-linkHover);
+  text-decoration: underline;
+}
+
+.slidev-layout code:not(.shiki) {
+  font-family: var(--prsm-typography-fontFamily-mono);
+  font-size: var(--prsm-components-code-fontSize);
+  background: var(--prsm-slide-codeBg);
+  color: var(--prsm-slide-codeText);
+  padding: var(--prsm-components-code-padding);
+  border-radius: var(--prsm-components-code-borderRadius);
+}
+
+.slidev-layout blockquote {
+  border-left: 4px solid var(--prsm-components-blockquote-borderColor);
+  background: var(--prsm-colors-primary-50);
+  padding: var(--prsm-components-blockquote-padding);
+  margin: var(--prsm-spacing-md) 0;
+  font-style: italic;
+}
+
+.slidev-layout ul,
+.slidev-layout ol {
+  padding-left: var(--prsm-components-list-indentation);
+  margin: var(--prsm-spacing-sm) 0;
+}
+
+.slidev-layout li {
+  margin-bottom: var(--prsm-spacing-2);
+}
+
+.slidev-layout li::marker {
+  color: var(--prsm-components-list-bulletColor);
+}
+
+/* Cover slide */
+.slidev-layout.cover {
+  background: var(--prsm-gradients-primary);
+  color: var(--prsm-colors-neutral-50);
+}
+
+.slidev-layout.cover h1 {
+  color: var(--prsm-colors-neutral-50);
+}
+
+/* Two-column layout */
+.slidev-layout.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--prsm-spacing-xl);
+}
+
+/* PRSMTECH brand footer */
+.slidev-layout::after {
+  content: 'PRSMTECH';
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  font-family: var(--prsm-typography-fontFamily-heading);
+  font-size: var(--prsm-typography-fontSize-sm);
+  font-weight: var(--prsm-typography-fontWeight-bold);
+  color: var(--prsm-colors-primary-500);
+  opacity: 0.6;
+}

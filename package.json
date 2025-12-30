@@ -1,0 +1,36 @@
+{
+  "name": "@prsmtech/presentation-logic",
+  "version": "1.0.0",
+  "description": "Unified presentation framework for multi-platform slide generation",
+  "type": "module",
+  "main": "core/index.js",
+  "exports": {
+    ".": "./core/index.js",
+    "./themes": "./themes/prsmtech/variables.json"
+  },
+  "scripts": {
+    "theme:build": "node themes/prsmtech/build.js",
+    "theme:watch": "node themes/prsmtech/build.js --watch"
+  },
+  "keywords": [
+    "presentation",
+    "slides",
+    "slidev",
+    "reveal",
+    "webslides",
+    "design-tokens",
+    "prsmtech"
+  ],
+  "author": "PRSMTECH",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:swizzimatic/presentRus.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

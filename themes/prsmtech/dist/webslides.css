@@ -1,0 +1,183 @@
+/**
+ * PRSMTECH WebSlides Theme
+ *
+ * @generated 2025-12-30T01:21:55.090Z
+ */
+
+@import './base.css';
+
+/* WebSlides base overrides */
+#webslides {
+  font-family: var(--prsm-typography-fontFamily-sans);
+  font-size: var(--prsm-typography-fontSize-lg);
+  color: var(--prsm-slide-text);
+}
+
+#webslides section {
+  background: var(--prsm-slide-background);
+  padding: 80px;
+}
+
+#webslides h1,
+#webslides h2,
+#webslides h3,
+#webslides h4 {
+  font-family: var(--prsm-typography-fontFamily-heading);
+  font-weight: var(--prsm-typography-fontWeight-bold);
+  color: var(--prsm-slide-heading);
+  margin-bottom: var(--prsm-spacing-md);
+}
+
+#webslides h1 {
+  font-size: var(--prsm-typography-fontSize-6xl);
+  line-height: var(--prsm-typography-lineHeight-tight);
+}
+
+#webslides h2 {
+  font-size: var(--prsm-typography-fontSize-4xl);
+}
+
+#webslides h3 {
+  font-size: var(--prsm-typography-fontSize-3xl);
+}
+
+#webslides p {
+  line-height: var(--prsm-typography-lineHeight-relaxed);
+  margin-bottom: var(--prsm-spacing-md);
+}
+
+#webslides a {
+  color: var(--prsm-slide-link);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all var(--prsm-transitions-duration-fast);
+}
+
+#webslides a:hover {
+  color: var(--prsm-slide-linkHover);
+  border-bottom-color: var(--prsm-slide-linkHover);
+}
+
+#webslides code,
+#webslides pre {
+  font-family: var(--prsm-typography-fontFamily-mono);
+  font-size: var(--prsm-components-code-fontSize);
+}
+
+#webslides code {
+  background: var(--prsm-slide-codeBg);
+  color: var(--prsm-slide-codeText);
+  padding: var(--prsm-components-code-padding);
+  border-radius: var(--prsm-components-code-borderRadius);
+}
+
+#webslides pre {
+  background: var(--prsm-slide-codeBg);
+  padding: var(--prsm-spacing-md);
+  border-radius: var(--prsm-borderRadius-md);
+  overflow-x: auto;
+  margin: var(--prsm-spacing-md) 0;
+}
+
+#webslides pre code {
+  background: transparent;
+  padding: 0;
+}
+
+#webslides blockquote {
+  border-left: 4px solid var(--prsm-colors-primary-500);
+  background: var(--prsm-colors-primary-50);
+  padding: var(--prsm-components-blockquote-padding);
+  margin: var(--prsm-spacing-lg) 0;
+  font-style: italic;
+}
+
+#webslides ul,
+#webslides ol {
+  padding-left: var(--prsm-components-list-indentation);
+  margin: var(--prsm-spacing-md) 0;
+}
+
+#webslides li {
+  margin-bottom: var(--prsm-spacing-2);
+  line-height: var(--prsm-typography-lineHeight-relaxed);
+}
+
+#webslides li::marker {
+  color: var(--prsm-components-list-bulletColor);
+}
+
+/* WebSlides components */
+
+/* Background variations */
+.bg-prsm-primary {
+  background-color: var(--prsm-colors-primary-500);
+  color: var(--prsm-colors-neutral-50);
+}
+
+.bg-prsm-secondary {
+  background-color: var(--prsm-colors-secondary-500);
+  color: var(--prsm-colors-neutral-50);
+}
+
+.bg-prsm-gradient {
+  background: var(--prsm-gradients-primary);
+  color: var(--prsm-colors-neutral-50);
+}
+
+.bg-prsm-dark {
+  background: var(--prsm-dark-background);
+  color: var(--prsm-dark-text);
+}
+
+/* Text colors */
+.text-prsm-primary {
+  color: var(--prsm-colors-primary-500);
+}
+
+.text-prsm-secondary {
+  color: var(--prsm-colors-secondary-500);
+}
+
+/* Card component */
+.prsm-card {
+  background: var(--prsm-slide-background);
+  border: 1px solid var(--prsm-slide-border);
+  border-radius: var(--prsm-borderRadius-lg);
+  padding: var(--prsm-spacing-lg);
+  box-shadow: var(--prsm-shadows-md);
+}
+
+/* Grid layouts */
+.prsm-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--prsm-spacing-xl);
+}
+
+.prsm-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--prsm-spacing-lg);
+}
+
+/* Navigation */
+#navigation {
+  background: var(--prsm-slide-background);
+  border-top: 1px solid var(--prsm-slide-border);
+}
+
+#navigation a {
+  color: var(--prsm-slide-text);
+}
+
+#navigation a:hover {
+  color: var(--prsm-colors-primary-500);
+}
+
+/* Counter */
+#counter {
+  font-family: var(--prsm-typography-fontFamily-mono);
+  font-size: var(--prsm-typography-fontSize-sm);
+  color: var(--prsm-slide-textMuted);
+}

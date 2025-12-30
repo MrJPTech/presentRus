@@ -1,0 +1,225 @@
+/**
+ * PRSMTECH Design Tokens - Base CSS Variables
+ * Generated from variables.json
+ *
+ * @generated 2025-12-30T01:21:55.087Z
+ */
+
+:root {
+  /* Colors */
+  --prsm-colors-primary: #0057e6;
+  --prsm-colors-primary-50: #e6f0ff;
+  --prsm-colors-primary-100: #b3d1ff;
+  --prsm-colors-primary-200: #80b3ff;
+  --prsm-colors-primary-300: #4d94ff;
+  --prsm-colors-primary-400: #1a75ff;
+  --prsm-colors-primary-500: #0057e6;
+  --prsm-colors-primary-600: #0046b3;
+  --prsm-colors-primary-700: #003580;
+  --prsm-colors-primary-800: #00244d;
+  --prsm-colors-primary-900: #00131a;
+  --prsm-colors-primary-DEFAULT: #0057e6;
+  --prsm-colors-secondary: #5c00e6;
+  --prsm-colors-secondary-50: #f0e6ff;
+  --prsm-colors-secondary-100: #d1b3ff;
+  --prsm-colors-secondary-200: #b380ff;
+  --prsm-colors-secondary-300: #944dff;
+  --prsm-colors-secondary-400: #751aff;
+  --prsm-colors-secondary-500: #5c00e6;
+  --prsm-colors-secondary-600: #4900b3;
+  --prsm-colors-secondary-700: #370080;
+  --prsm-colors-secondary-800: #24004d;
+  --prsm-colors-secondary-900: #12001a;
+  --prsm-colors-secondary-DEFAULT: #5c00e6;
+  --prsm-colors-neutral: #6c757d;
+  --prsm-colors-neutral-50: #f8f9fa;
+  --prsm-colors-neutral-100: #f1f3f5;
+  --prsm-colors-neutral-200: #e9ecef;
+  --prsm-colors-neutral-300: #dee2e6;
+  --prsm-colors-neutral-400: #ced4da;
+  --prsm-colors-neutral-500: #adb5bd;
+  --prsm-colors-neutral-600: #6c757d;
+  --prsm-colors-neutral-700: #495057;
+  --prsm-colors-neutral-800: #343a40;
+  --prsm-colors-neutral-900: #212529;
+  --prsm-colors-neutral-DEFAULT: #6c757d;
+  --prsm-colors-semantic-success: #28a745;
+  --prsm-colors-semantic-success-light: #d4edda;
+  --prsm-colors-semantic-success-DEFAULT: #28a745;
+  --prsm-colors-semantic-success-dark: #1e7e34;
+  --prsm-colors-semantic-warning: #ffc107;
+  --prsm-colors-semantic-warning-light: #fff3cd;
+  --prsm-colors-semantic-warning-DEFAULT: #ffc107;
+  --prsm-colors-semantic-warning-dark: #d39e00;
+  --prsm-colors-semantic-error: #dc3545;
+  --prsm-colors-semantic-error-light: #f8d7da;
+  --prsm-colors-semantic-error-DEFAULT: #dc3545;
+  --prsm-colors-semantic-error-dark: #bd2130;
+  --prsm-colors-semantic-info: #17a2b8;
+  --prsm-colors-semantic-info-light: #d1ecf1;
+  --prsm-colors-semantic-info-DEFAULT: #17a2b8;
+  --prsm-colors-semantic-info-dark: #117a8b;
+  --prsm-colors-slide-background: #ffffff;
+  --prsm-colors-slide-backgroundAlt: #f8f9fa;
+  --prsm-colors-slide-text: #212529;
+  --prsm-colors-slide-textMuted: #6c757d;
+  --prsm-colors-slide-heading: #0057e6;
+  --prsm-colors-slide-link: #0057e6;
+  --prsm-colors-slide-linkHover: #0046b3;
+  --prsm-colors-slide-border: #dee2e6;
+  --prsm-colors-slide-codeBg: #f1f3f5;
+  --prsm-colors-slide-codeText: #212529;
+  --prsm-colors-dark-background: #212529;
+  --prsm-colors-dark-backgroundAlt: #343a40;
+  --prsm-colors-dark-text: #f8f9fa;
+  --prsm-colors-dark-textMuted: #adb5bd;
+  --prsm-colors-dark-heading: #4d94ff;
+  --prsm-colors-dark-link: #4d94ff;
+  --prsm-colors-dark-linkHover: #80b3ff;
+  --prsm-colors-dark-border: #495057;
+  --prsm-colors-dark-codeBg: #343a40;
+  --prsm-colors-dark-codeText: #f8f9fa;
+  --prsm-slide-dimensions-slidev-width: 980;
+  --prsm-slide-dimensions-slidev-height: 552;
+  --prsm-slide-dimensions-slidev-ratio: 16:9;
+  --prsm-slide-dimensions-reveal-width: 960;
+  --prsm-slide-dimensions-reveal-height: 700;
+  --prsm-slide-dimensions-reveal-ratio: default;
+  --prsm-slide-dimensions-webslides-width: 100vw;
+  --prsm-slide-dimensions-webslides-height: 100vh;
+  --prsm-slide-dimensions-webslides-ratio: responsive;
+  --prsm-slide-padding-slidev: 40px;
+  --prsm-slide-padding-reveal: 40px 80px;
+  --prsm-slide-padding-webslides: 80px;
+  --prsm-slide-defaults-gap: 1.5rem;
+  --prsm-slide-defaults-gridColumns: 2;
+  --prsm-slide-defaults-maxContentWidth: 1200px;
+
+  /* Typography */
+  --prsm-typography-fontFamily-sans: Inter, Geist, system-ui, sans-serif;
+  --prsm-typography-fontFamily-heading: "Space Grotesk", Geist, system-ui, sans-serif;
+  --prsm-typography-fontFamily-mono: "Maple Mono", "Geist Mono", "Fira Code", ui-monospace, monospace;
+  --prsm-typography-fontFamily-display: "Space Grotesk", Inter, sans-serif;
+  --prsm-typography-fontSize-xs: 0.75rem;
+  --prsm-typography-fontSize-sm: 0.875rem;
+  --prsm-typography-fontSize-base: 1rem;
+  --prsm-typography-fontSize-lg: 1.125rem;
+  --prsm-typography-fontSize-xl: 1.25rem;
+  --prsm-typography-fontSize-2xl: 1.5rem;
+  --prsm-typography-fontSize-3xl: 1.875rem;
+  --prsm-typography-fontSize-4xl: 2.25rem;
+  --prsm-typography-fontSize-5xl: 3rem;
+  --prsm-typography-fontSize-6xl: 3.75rem;
+  --prsm-typography-fontSize-7xl: 4.5rem;
+  --prsm-typography-fontWeight-light: 300;
+  --prsm-typography-fontWeight-normal: 400;
+  --prsm-typography-fontWeight-medium: 500;
+  --prsm-typography-fontWeight-semibold: 600;
+  --prsm-typography-fontWeight-bold: 700;
+  --prsm-typography-fontWeight-extrabold: 800;
+  --prsm-typography-lineHeight-tight: 1.25;
+  --prsm-typography-lineHeight-normal: 1.5;
+  --prsm-typography-lineHeight-relaxed: 1.75;
+  --prsm-typography-lineHeight-loose: 2;
+
+  /* Spacing */
+  --prsm-spacing-0: 0;
+  --prsm-spacing-1: 0.25rem;
+  --prsm-spacing-2: 0.5rem;
+  --prsm-spacing-3: 0.75rem;
+  --prsm-spacing-4: 1rem;
+  --prsm-spacing-5: 1.25rem;
+  --prsm-spacing-6: 1.5rem;
+  --prsm-spacing-8: 2rem;
+  --prsm-spacing-10: 2.5rem;
+  --prsm-spacing-12: 3rem;
+  --prsm-spacing-16: 4rem;
+  --prsm-spacing-20: 5rem;
+  --prsm-spacing-24: 6rem;
+  --prsm-spacing-32: 8rem;
+  --prsm-spacing-xs: 0.5rem;
+  --prsm-spacing-sm: 1rem;
+  --prsm-spacing-md: 1.5rem;
+  --prsm-spacing-lg: 2rem;
+  --prsm-spacing-xl: 3rem;
+  --prsm-spacing-2xl: 4rem;
+  --prsm-spacing-3xl: 6rem;
+  --prsm-spacing-4xl: 8rem;
+
+  /* Borders & Shadows */
+  --prsm-borderRadius: 0.5rem;
+  --prsm-borderRadius-none: 0;
+  --prsm-borderRadius-sm: 0.25rem;
+  --prsm-borderRadius-DEFAULT: 0.5rem;
+  --prsm-borderRadius-md: 0.75rem;
+  --prsm-borderRadius-lg: 1rem;
+  --prsm-borderRadius-xl: 1.5rem;
+  --prsm-borderRadius-2xl: 2rem;
+  --prsm-borderRadius-full: 9999px;
+  --prsm-shadows: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --prsm-shadows-none: none;
+  --prsm-shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --prsm-shadows-DEFAULT: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --prsm-shadows-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --prsm-shadows-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --prsm-shadows-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --prsm-shadows-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --prsm-shadows-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+
+  /* Transitions */
+  --prsm-transitions-duration-fast: 150ms;
+  --prsm-transitions-duration-normal: 300ms;
+  --prsm-transitions-duration-slow: 500ms;
+  --prsm-transitions-duration-slower: 700ms;
+  --prsm-transitions-timing-linear: linear;
+  --prsm-transitions-timing-ease: ease;
+  --prsm-transitions-timing-easeIn: ease-in;
+  --prsm-transitions-timing-easeOut: ease-out;
+  --prsm-transitions-timing-easeInOut: ease-in-out;
+  --prsm-transitions-timing-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Other */
+  --prsm-$schema: https://json-schema.org/draft/2020-12/schema;
+  --prsm-$description: PRSMTECH Design Tokens - Single source of truth for all presentation frameworks;
+  --prsm-$version: 1.0.0;
+  --prsm-$lastUpdated: 2025-12-29;
+  --prsm-$source: Derived from J:\PRSMTECH\PRSM-CEO\website\lib\design-system.ts;
+  --prsm-brand-name: PRSMTECH;
+  --prsm-brand-tagline: Transform Your Business with Custom Software & AI Automation;
+  --prsm-components-code-fontSize: 0.875rem;
+  --prsm-components-code-lineHeight: 1.7;
+  --prsm-components-code-padding: 0.25rem 0.5rem;
+  --prsm-components-code-borderRadius: 0.25rem;
+  --prsm-components-code-background: #f1f3f5;
+  --prsm-components-blockquote-borderColor: #0057e6;
+  --prsm-components-blockquote-borderWidth: 4px;
+  --prsm-components-blockquote-background: #e6f0ff;
+  --prsm-components-blockquote-padding: 1rem 1.5rem;
+  --prsm-components-table-headerBackground: #f8f9fa;
+  --prsm-components-table-borderColor: #dee2e6;
+  --prsm-components-table-cellPadding: 0.75rem 1rem;
+  --prsm-components-list-bulletColor: #0057e6;
+  --prsm-components-list-numberColor: #0057e6;
+  --prsm-components-list-indentation: 1.5rem;
+  --prsm-gradients-primary: linear-gradient(135deg, #0057e6 0%, #5c00e6 100%);
+  --prsm-gradients-primarySoft: linear-gradient(135deg, #e6f0ff 0%, #f0e6ff 100%);
+  --prsm-gradients-dark: linear-gradient(135deg, #212529 0%, #343a40 100%);
+  --prsm-gradients-hero: linear-gradient(180deg, rgba(0, 87, 230, 0.1) 0%, transparent 100%);
+
+}
+
+/* Dark mode */
+[data-theme="dark"],
+.dark,
+:root.dark {
+  --prsm-slide-background: var(--prsm-dark-background);
+  --prsm-slide-backgroundAlt: var(--prsm-dark-backgroundAlt);
+  --prsm-slide-text: var(--prsm-dark-text);
+  --prsm-slide-textMuted: var(--prsm-dark-textMuted);
+  --prsm-slide-heading: var(--prsm-dark-heading);
+  --prsm-slide-link: var(--prsm-dark-link);
+  --prsm-slide-linkHover: var(--prsm-dark-linkHover);
+  --prsm-slide-border: var(--prsm-dark-border);
+  --prsm-slide-codeBg: var(--prsm-dark-codeBg);
+  --prsm-slide-codeText: var(--prsm-dark-codeText);
+}

@@ -1,0 +1,251 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$description": "PRSMTECH Design Tokens - Single source of truth for all presentation frameworks",
+  "$version": "1.0.0",
+  "$lastUpdated": "2025-12-29",
+  "$source": "Derived from J:\\PRSMTECH\\PRSM-CEO\\website\\lib\\design-system.ts",
+
+  "brand": {
+    "name": "PRSMTECH",
+    "tagline": "Transform Your Business with Custom Software & AI Automation"
+  },
+
+  "colors": {
+    "primary": {
+      "50": "#e6f0ff",
+      "100": "#b3d1ff",
+      "200": "#80b3ff",
+      "300": "#4d94ff",
+      "400": "#1a75ff",
+      "500": "#0057e6",
+      "600": "#0046b3",
+      "700": "#003580",
+      "800": "#00244d",
+      "900": "#00131a",
+      "DEFAULT": "#0057e6"
+    },
+    "secondary": {
+      "50": "#f0e6ff",
+      "100": "#d1b3ff",
+      "200": "#b380ff",
+      "300": "#944dff",
+      "400": "#751aff",
+      "500": "#5c00e6",
+      "600": "#4900b3",
+      "700": "#370080",
+      "800": "#24004d",
+      "900": "#12001a",
+      "DEFAULT": "#5c00e6"
+    },
+    "neutral": {
+      "50": "#f8f9fa",
+      "100": "#f1f3f5",
+      "200": "#e9ecef",
+      "300": "#dee2e6",
+      "400": "#ced4da",
+      "500": "#adb5bd",
+      "600": "#6c757d",
+      "700": "#495057",
+      "800": "#343a40",
+      "900": "#212529",
+      "DEFAULT": "#6c757d"
+    },
+    "semantic": {
+      "success": {
+        "light": "#d4edda",
+        "DEFAULT": "#28a745",
+        "dark": "#1e7e34"
+      },
+      "warning": {
+        "light": "#fff3cd",
+        "DEFAULT": "#ffc107",
+        "dark": "#d39e00"
+      },
+      "error": {
+        "light": "#f8d7da",
+        "DEFAULT": "#dc3545",
+        "dark": "#bd2130"
+      },
+      "info": {
+        "light": "#d1ecf1",
+        "DEFAULT": "#17a2b8",
+        "dark": "#117a8b"
+      }
+    },
+    "slide": {
+      "background": "#ffffff",
+      "backgroundAlt": "#f8f9fa",
+      "text": "#212529",
+      "textMuted": "#6c757d",
+      "heading": "#0057e6",
+      "link": "#0057e6",
+      "linkHover": "#0046b3",
+      "border": "#dee2e6",
+      "codeBg": "#f1f3f5",
+      "codeText": "#212529"
+    },
+    "dark": {
+      "background": "#212529",
+      "backgroundAlt": "#343a40",
+      "text": "#f8f9fa",
+      "textMuted": "#adb5bd",
+      "heading": "#4d94ff",
+      "link": "#4d94ff",
+      "linkHover": "#80b3ff",
+      "border": "#495057",
+      "codeBg": "#343a40",
+      "codeText": "#f8f9fa"
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "sans": ["Inter", "Geist", "system-ui", "sans-serif"],
+      "heading": ["Space Grotesk", "Geist", "system-ui", "sans-serif"],
+      "mono": ["Maple Mono", "Geist Mono", "Fira Code", "ui-monospace", "monospace"],
+      "display": ["Space Grotesk", "Inter", "sans-serif"]
+    },
+    "fontSize": {
+      "xs": { "value": "0.75rem", "px": "12px" },
+      "sm": { "value": "0.875rem", "px": "14px" },
+      "base": { "value": "1rem", "px": "16px" },
+      "lg": { "value": "1.125rem", "px": "18px" },
+      "xl": { "value": "1.25rem", "px": "20px" },
+      "2xl": { "value": "1.5rem", "px": "24px" },
+      "3xl": { "value": "1.875rem", "px": "30px" },
+      "4xl": { "value": "2.25rem", "px": "36px" },
+      "5xl": { "value": "3rem", "px": "48px" },
+      "6xl": { "value": "3.75rem", "px": "60px" },
+      "7xl": { "value": "4.5rem", "px": "72px" }
+    },
+    "fontWeight": {
+      "light": "300",
+      "normal": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700",
+      "extrabold": "800"
+    },
+    "lineHeight": {
+      "tight": "1.25",
+      "normal": "1.5",
+      "relaxed": "1.75",
+      "loose": "2"
+    }
+  },
+
+  "spacing": {
+    "0": "0",
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "5": "1.25rem",
+    "6": "1.5rem",
+    "8": "2rem",
+    "10": "2.5rem",
+    "12": "3rem",
+    "16": "4rem",
+    "20": "5rem",
+    "24": "6rem",
+    "32": "8rem",
+    "xs": "0.5rem",
+    "sm": "1rem",
+    "md": "1.5rem",
+    "lg": "2rem",
+    "xl": "3rem",
+    "2xl": "4rem",
+    "3xl": "6rem",
+    "4xl": "8rem"
+  },
+
+  "borderRadius": {
+    "none": "0",
+    "sm": "0.25rem",
+    "DEFAULT": "0.5rem",
+    "md": "0.75rem",
+    "lg": "1rem",
+    "xl": "1.5rem",
+    "2xl": "2rem",
+    "full": "9999px"
+  },
+
+  "shadows": {
+    "none": "none",
+    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    "DEFAULT": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+    "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+    "inner": "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)"
+  },
+
+  "transitions": {
+    "duration": {
+      "fast": "150ms",
+      "normal": "300ms",
+      "slow": "500ms",
+      "slower": "700ms"
+    },
+    "timing": {
+      "linear": "linear",
+      "ease": "ease",
+      "easeIn": "ease-in",
+      "easeOut": "ease-out",
+      "easeInOut": "ease-in-out",
+      "spring": "cubic-bezier(0.175, 0.885, 0.32, 1.275)"
+    }
+  },
+
+  "slide": {
+    "dimensions": {
+      "slidev": { "width": 980, "height": 552, "ratio": "16:9" },
+      "reveal": { "width": 960, "height": 700, "ratio": "default" },
+      "webslides": { "width": "100vw", "height": "100vh", "ratio": "responsive" }
+    },
+    "padding": {
+      "slidev": "40px",
+      "reveal": "40px 80px",
+      "webslides": "80px"
+    },
+    "defaults": {
+      "gap": "1.5rem",
+      "gridColumns": 2,
+      "maxContentWidth": "1200px"
+    }
+  },
+
+  "components": {
+    "code": {
+      "fontSize": "0.875rem",
+      "lineHeight": "1.7",
+      "padding": "0.25rem 0.5rem",
+      "borderRadius": "0.25rem",
+      "background": "#f1f3f5"
+    },
+    "blockquote": {
+      "borderColor": "#0057e6",
+      "borderWidth": "4px",
+      "background": "#e6f0ff",
+      "padding": "1rem 1.5rem"
+    },
+    "table": {
+      "headerBackground": "#f8f9fa",
+      "borderColor": "#dee2e6",
+      "cellPadding": "0.75rem 1rem"
+    },
+    "list": {
+      "bulletColor": "#0057e6",
+      "numberColor": "#0057e6",
+      "indentation": "1.5rem"
+    }
+  },
+
+  "gradients": {
+    "primary": "linear-gradient(135deg, #0057e6 0%, #5c00e6 100%)",
+    "primarySoft": "linear-gradient(135deg, #e6f0ff 0%, #f0e6ff 100%)",
+    "dark": "linear-gradient(135deg, #212529 0%, #343a40 100%)",
+    "hero": "linear-gradient(180deg, rgba(0, 87, 230, 0.1) 0%, transparent 100%)"
+  }
+}
